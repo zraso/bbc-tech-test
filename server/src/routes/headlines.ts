@@ -8,9 +8,9 @@ const headlines = async (req: express.Request, res: express.Response) => {
       throw Error();
     }
 
-    const record = DataAccessObject.getHeadlines(req.body.country);
+    const item = DataAccessObject.retrieveCountry();
 
-    return record;
+    res.send(item);
   } catch (error) {
     res.status(400).send();
   }
