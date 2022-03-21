@@ -22,6 +22,9 @@ const Navbar = () => {
       <MenuItem>
         <NavbarLink to="/countries">Countries</NavbarLink>
       </MenuItem>
+      <MenuItem>
+        <NavbarLink to="/headlines">Headlines</NavbarLink>
+      </MenuItem>
     </NavbarContainer>
   );
 };
