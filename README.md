@@ -34,4 +34,4 @@ Both the client and server use jest for tests. These can be run by within each d
 Given more time, I would have developed the following: 
 - Hidden the API-KEY for the News API in an environment variable
 - Written unit tests
-- Developed a better data storage and access system - I've currently had to leave the country code hardcoded. This needs to be passed as a prop via a parent component, possibly the router
+- Developed a better data storage and access system - I've currently had to leave the country code hardcoded. This needs to be passed as a prop via a parent component, or the router, or express. WIP in another branch 
