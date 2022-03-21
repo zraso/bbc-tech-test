@@ -26,8 +26,6 @@ const Countries = () => {
     axiosInstance.post("/countries", {
       country,
     });
-
-
   };
 
   return (

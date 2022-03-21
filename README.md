@@ -29,4 +29,9 @@ npm start
 Both the client and server use jest for tests. These can be run by within each directory by running `npm test`
 
 
-API-KEY 7ec1b6572dde4dd2b1ccadbb293a1ac0
+# Notes
+
+Given more time, I would have developed the following: 
+- Hidden the API-KEY for the News API in an environment variable
+- Written unit tests
+- Developed a better data storage and access system - I've currently had to leave the country code hardcoded. This needs to be passed as a prop via a parent component, possibly the router
