@@ -1,1 +1,2 @@
-export const countriesList =  [ 'uk', 'us', 'ng', 'au' ]
+export const countriesList =  [ 'gb', 'us', 'fr', 'au', 'in' ]
+
