@@ -1,11 +1,16 @@
 import DataAccessObject from "../libs/dataAccessObject";
 import * as express from "express";
+import axiosInstance from "axios";
 
-const countries = (req: express.Request, res: express.Response) => {
+const countries = async (req: express.Request, res: express.Response) => {
   try {
-    // error handling
+    if (!req.body.country) {
+      throw Error();
+    }
 
-    // access data access object
+    const headlines = DataAccessObject.getHeadlines(req.body.country);
+
+    return headlines;
   } catch (error) {
     res.status(400).send();
   }

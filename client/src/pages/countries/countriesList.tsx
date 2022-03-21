@@ -1,0 +1,1 @@
+export const countriesList =  [ 'uk', 'us', 'ng', 'au' ]

@@ -27,3 +27,6 @@ npm start
 # Running tests
 
 Both the client and server use jest for tests. These can be run by within each directory by running `npm test`
+
+
+API-KEY 7ec1b6572dde4dd2b1ccadbb293a1ac0
